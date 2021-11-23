@@ -1,6 +1,11 @@
 {
   "name": "lavi-client",
   "private": true,
+  "scripts": {
+    "ios": "yarn workspace mobile ios",
+    "android": "yarn workspace mobile android",
+    "web": "yarn workspace web dev"
+  },
   "workspaces": {
     "packages": [
       "packages/*"
