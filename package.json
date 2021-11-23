@@ -4,6 +4,7 @@
   "scripts": {
     "ios": "yarn workspace mobile ios",
     "android": "yarn workspace mobile android",
+    "start": "yarn workspace mobile start",
     "web": "yarn workspace web dev"
   },
   "workspaces": {
