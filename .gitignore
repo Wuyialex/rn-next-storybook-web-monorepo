@@ -57,4 +57,9 @@ buck-out/
 *.jsbundle
 
 # CocoaPods
-/ios/Pods/
+Pods/
+
+.DS_Store
+.vscode
+node_modules/
+yarn-error.log
