@@ -1,19 +1,26 @@
+import {theme} from 'components/theme';
+import {DripsyProvider, SafeAreaView, Text} from 'dripsy';
 import React from 'react';
-import {SafeAreaView, Text, View} from 'react-native';
 
 const App = () => {
   return (
-    <SafeAreaView
-      style={{
-        flex: 1,
-        backgroundColor: 'pink',
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}>
-      <View>
-        <Text>Hello word</Text>
-      </View>
-    </SafeAreaView>
+    <DripsyProvider theme={theme}>
+      <SafeAreaView
+        sx={{
+          backgroundColor: '$background',
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
+        <Text
+          sx={{
+            color: '$text',
+            fontSize: 20,
+          }}>
+          Hello word
+        </Text>
+      </SafeAreaView>
+    </DripsyProvider>
   );
 };
 
