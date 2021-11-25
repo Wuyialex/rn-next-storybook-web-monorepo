@@ -1,4 +1,4 @@
-import {theme} from 'components/theme';
+import {theme} from 'app/theme';
 import {DripsyProvider} from 'dripsy';
 import {AppProps} from 'next/app';
 import Head from 'next/head';

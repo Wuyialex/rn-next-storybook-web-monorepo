@@ -1,4 +1,4 @@
-import {theme} from 'components/theme';
+import {theme} from 'app/theme';
 import {DripsyProvider, SafeAreaView, Text} from 'dripsy';
 import React from 'react';
 
