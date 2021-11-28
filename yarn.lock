@@ -1958,6 +1958,13 @@
     prop-types "^15.6.1"
     react-lifecycles-compat "^3.0.4"
 
+"@react-native-async-storage/async-storage@^1.15.13":
+  version "1.15.13"
+  resolved "https://registry.npmjs.org/@react-native-async-storage/async-storage/-/async-storage-1.15.13.tgz#58f1d524c6e38275dbbfc05162c8f090a4c478b6"
+  integrity sha512-OnbPmjiBOREiutFMG356w+eWiEL1WRCgXDH/o6+4S1cIkfl9SZFanxUBlGi4/Ny22KXcJHN0VtWy0gL8jqYYLg==
+  dependencies:
+    merge-options "^3.0.4"
+
 "@react-native-community/cli-debugger-ui@^6.0.0-rc.0":
   version "6.0.0-rc.0"
   resolved "https://registry.npmjs.org/@react-native-community/cli-debugger-ui/-/cli-debugger-ui-6.0.0-rc.0.tgz#774378626e4b70f5e1e2e54910472dcbaffa1536"
@@ -8681,7 +8688,7 @@ is-path-inside@^2.1.0:
   dependencies:
     path-is-inside "^1.0.2"
 
-is-plain-obj@^2.0.0:
+is-plain-obj@^2.0.0, is-plain-obj@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-2.1.0.tgz#45e42e37fccf1f40da8e5f76ee21515840c09287"
   integrity sha512-YWnfyRwxL/+SsrWYfOpUtz5b3YD+nyfkHvjbcanzk8zgyO4ASD67uVMRt8k5bM4lLMDnXfriRhOpemw+NfT1eA==
@@ -9914,6 +9921,13 @@ merge-descriptors@1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-1.0.1.tgz#b00aaa556dd8b44568150ec9d1b953f3f90cbb61"
   integrity sha1-sAqqVW3YtEVoFQ7J0blT8/kMu2E=
+
+merge-options@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.npmjs.org/merge-options/-/merge-options-3.0.4.tgz#84709c2aa2a4b24c1981f66c179fe5565cc6dbb7"
+  integrity sha512-2Sug1+knBjkaMsMgf1ctR1Ujx+Ayku4EdJN4Z+C2+JzoeF7A3OZ9KM2GY0CpQS51NR61LTurMJrRKPhSs3ZRTQ==
+  dependencies:
+    is-plain-obj "^2.1.0"
 
 merge-stream@^2.0.0:
   version "2.0.0"
@@ -12342,6 +12356,11 @@ react-native-codegen@^0.0.7:
     jscodeshift "^0.11.0"
     nullthrows "^1.1.1"
 
+react-native-flipper@^0.122.0:
+  version "0.122.0"
+  resolved "https://registry.npmjs.org/react-native-flipper/-/react-native-flipper-0.122.0.tgz#fec6e92ebfb286964b25400384cc81e7e29c293a"
+  integrity sha512-k958gP8ctiC+SuFcCnEQyg4wbYkZqTjd2qd3m8RxT9/xetYok5jQTfwZ0S1/4TN7bPaQ+VKvkhXZteeZ5egc5g==
+
 react-native-gesture-handler@^1.10.3:
   version "1.10.3"
   resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-1.10.3.tgz#942bbf2963bbf49fa79593600ee9d7b5dab3cfc0"
@@ -12929,6 +12948,11 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
   dependencies:
     hash-base "^3.0.0"
     inherits "^2.0.1"
+
+rn-flipper-async-storage-advanced@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/rn-flipper-async-storage-advanced/-/rn-flipper-async-storage-advanced-1.0.4.tgz#ca3d0c315a75f379fef3771cc6ee3bef2d774265"
+  integrity sha512-ixA6LJOxz+spdeJ8a2x6KimIiDCuKDky0ic5VaOHWIPSUcGmtmmZKJ98TQ0Uj3Cx/sM9K5VaUyjt2Gt1lrZNiw==
 
 rsvp@^4.8.4:
   version "4.8.5"

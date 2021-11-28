@@ -1,7 +1,11 @@
 require_relative '../../../node_modules/react-native/scripts/react_native_pods'
 require_relative '../../../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-platform :ios, '11.0'
+ios_version = '13.0'
+flipperkit_version = '0.121.0'
+
+platform :ios, ios_version
+
 
 target 'LaviAppClient' do
   config = use_native_modules!
@@ -9,7 +13,7 @@ target 'LaviAppClient' do
   use_react_native!(
     :path => config[:reactNativePath],
     # to enable hermes on iOS, change `false` to `true` and then install pods
-    :hermes_enabled => false
+    :hermes_enabled => true
   )
 
   target 'LaviAppClientTests' do
@@ -21,7 +25,15 @@ target 'LaviAppClient' do
   #
   # Note that if you have use_frameworks! enabled, Flipper will not work and
   # you should disable the next line.
-  use_flipper!()
+  # 버전을 강제로 지정하는 https://github.com/facebook/flipper/blob/main/react-native/ReactNativeFlipperExample/ios/Podfile 참고
+  use_flipper!({ 
+    'Flipper' => flipperkit_version, 
+    'Flipper-Folly' => '2.6.10', 
+    'Flipper-RSocket' => '1.4.3', 
+    'Flipper-DoubleConversion' => '3.1.7', 
+    'Flipper-Glog' => '0.3.9', 
+    'Flipper-PeerTalk' => '0.0.4' 
+  })
 
   post_install do |installer|
     react_native_post_install(installer)

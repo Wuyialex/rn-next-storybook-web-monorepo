@@ -4,7 +4,7 @@
   "scripts": {
     "ios": "yarn workspace mobile ios",
     "android": "yarn workspace mobile android",
-    "start": "yarn workspace mobile start",
+    "start": "yarn workspace mobile start --reset-cache",
     "web": "yarn workspace web dev",
     "storybook": "yarn workspace storybook storybook",
     "pod-install": "cd packages/mobile/ios && pod install && cd ../../..",

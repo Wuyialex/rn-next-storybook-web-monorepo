@@ -1,3 +1,3 @@
-import App from 'app/App';
+import Index from 'app/TestScreen';
 
-export default App;
+export default Index;
