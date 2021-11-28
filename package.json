@@ -6,7 +6,9 @@
     "android": "yarn workspace mobile android",
     "start": "yarn workspace mobile start",
     "web": "yarn workspace web dev",
-    "storybook": "yarn workspace storybook storybook"
+    "storybook": "yarn workspace storybook storybook",
+    "pod-install": "cd packages/mobile/ios && pod install && cd ../../..",
+    "tsc": "tsc --noEmit"
   },
   "workspaces": {
     "packages": [

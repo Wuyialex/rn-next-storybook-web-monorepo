@@ -1,6 +1,7 @@
 import {theme} from 'app/theme';
 import {DripsyProvider, SafeAreaView, Text} from 'dripsy';
 import React from 'react';
+import DragBox from './src/DragBox';
 
 const App = () => {
   return (
@@ -12,13 +13,7 @@ const App = () => {
           justifyContent: 'center',
           alignItems: 'center',
         }}>
-        <Text
-          sx={{
-            color: '$text',
-            fontSize: 20,
-          }}>
-          Hello word
-        </Text>
+        <DragBox />
       </SafeAreaView>
     </DripsyProvider>
   );

@@ -1,10 +1,16 @@
-import {theme} from 'app/theme';
-import {DripsyProvider} from 'dripsy';
-import {AppProps} from 'next/app';
-import Head from 'next/head';
-import React from 'react';
+// import '../styles/global.scss';
+
+import 'raf/polyfill';
+// @ts-ignore
+global.setImmediate = requestAnimationFrame;
+import 'setimmediate';
 
 import {SafeAreaProvider} from 'react-native-safe-area-context';
+import Head from 'next/head';
+import {AppProps} from 'next/app';
+import {DripsyProvider} from 'dripsy';
+import React from 'react';
+import {theme} from 'app/theme';
 
 export default function App({Component, pageProps}: AppProps) {
   return (
@@ -17,15 +23,6 @@ export default function App({Component, pageProps}: AppProps) {
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
           name="viewport"
         />
-        <style>{`
-          html,
-          body,
-          body > div:first-child,
-          div#__next,
-          div#__next > div {
-            height: 100%;
-          }
-        `}</style>
       </Head>
       <DripsyProvider theme={theme}>
         <SafeAreaProvider>
