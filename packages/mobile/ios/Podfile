@@ -2,7 +2,7 @@ require_relative '../../../node_modules/react-native/scripts/react_native_pods'
 require_relative '../../../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
 ios_version = '13.0'
-flipperkit_version = '0.121.0'
+flipperkit_version = '0.122.0'
 
 platform :ios, ios_version
 
