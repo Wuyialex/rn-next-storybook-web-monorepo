@@ -1,6 +1,6 @@
 import React from 'react';
 import './button.css';
-import {View} from 'dripsy';
+
 interface ButtonProps {
   /**
    * Is this the principal call to action on the page?
@@ -39,22 +39,14 @@ export const Button = ({
     : 'storybook-button--secondary';
 
   return (
-    <View
-      sx={{
-        width: 100,
-        height: 100,
-        backgroundColor: '$background',
-      }}
-    />
-  );
-  return (
     <button
       type="button"
       className={['storybook-button', `storybook-button--${size}`, mode].join(
         ' ',
       )}
-      style={{backgroundColor}}
-      {...props}>
+      style={{ backgroundColor }}
+      {...props}
+    >
       {label}
     </button>
   );

@@ -5,14 +5,15 @@ import 'raf/polyfill';
 global.setImmediate = requestAnimationFrame;
 import 'setimmediate';
 
-import {SafeAreaProvider} from 'react-native-safe-area-context';
-import Head from 'next/head';
-import {AppProps} from 'next/app';
-import {DripsyProvider} from 'dripsy';
 import React from 'react';
-import {theme} from 'app/theme';
 
-export default function App({Component, pageProps}: AppProps) {
+import { theme } from 'app/theme';
+import { DripsyProvider } from 'dripsy';
+import { AppProps } from 'next/app';
+import Head from 'next/head';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+
+export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>

@@ -1,5 +1,7 @@
 import React from 'react';
-import {View} from 'react-native';
+
+import { View } from 'react-native';
+
 import {
   PanGestureHandler,
   PanGestureHandlerGestureEvent,
@@ -62,7 +64,7 @@ const DragBox: React.FC = () => {
   });
 
   return (
-    <View style={{flex: 1, margin: 50}}>
+    <View style={{ flex: 1, margin: 50 }}>
       <PanGestureHandler onGestureEvent={gestureHandler}>
         <Animated.View
           style={[

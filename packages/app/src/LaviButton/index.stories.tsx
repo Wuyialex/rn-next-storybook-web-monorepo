@@ -1,5 +1,7 @@
-import {ComponentMeta, ComponentStory} from '@storybook/react';
 import React from 'react';
+
+import { ComponentMeta, ComponentStory } from '@storybook/react';
+
 import LaviButton from './index';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
@@ -8,7 +10,7 @@ export default {
   component: LaviButton,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
-    color: {control: 'color'},
+    color: { control: 'color' },
   },
 } as ComponentMeta<typeof LaviButton>;
 

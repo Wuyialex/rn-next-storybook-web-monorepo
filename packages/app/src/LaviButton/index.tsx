@@ -1,11 +1,12 @@
 import React from 'react';
-import {View} from 'dripsy';
+
+import { View } from 'dripsy';
 
 interface Props {
   color?: string;
 }
 
-const LaviButton: React.FC<Props> = ({color}) => {
+const LaviButton: React.FC<Props> = ({ color }) => {
   return (
     <View
       sx={{

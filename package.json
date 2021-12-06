@@ -8,12 +8,29 @@
     "web": "yarn workspace web dev",
     "storybook": "yarn workspace storybook storybook",
     "pod-install": "cd packages/mobile/ios && pod install && cd ../../..",
-    "tsc": "tsc --noEmit"
+    "tsc": "yarn tsc:app && yarn tsc:mobile && yarn tsc:storybook",
+    "tsc:app": "cd ./packages/app && tsc --noEmit",
+    "tsc:mobile": "cd ./packages/mobile && tsc --noEmit",
+    "tsc:storybook": "cd ./packages/storybook && tsc --noEmit",
+    "lint": "eslint './packages/**/*.{ts,tsx,js}' --fix",
+    "prettier": "prettier --write './packages/**/*.{ts,tsx,js}'"
   },
   "workspaces": {
     "packages": [
       "packages/*"
     ],
     "nohoist": []
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^3.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "eslint": "^8.4.0",
+    "eslint-plugin-flowtype": "8.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "typescript": "^4.5.2"
   }
 }

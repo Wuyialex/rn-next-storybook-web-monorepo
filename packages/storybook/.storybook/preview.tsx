@@ -1,5 +1,5 @@
-import {theme} from 'app/theme';
-import {DripsyProvider} from 'dripsy';
+import { theme } from 'app/theme';
+import { DripsyProvider } from 'dripsy';
 import * as NextImage from 'next/image';
 import '../styles/globals.css';
 
@@ -11,7 +11,7 @@ Object.defineProperty(NextImage, 'default', {
 });
 
 export const parameters = {
-  actions: {argTypesRegex: '^on[A-Z].*'},
+  actions: { argTypesRegex: '^on[A-Z].*' },
   controls: {
     matchers: {
       color: /(background|color)$/i,

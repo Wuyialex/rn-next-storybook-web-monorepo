@@ -1,5 +1,7 @@
-import {SafeAreaView} from 'dripsy';
 import React from 'react';
+
+import { SafeAreaView } from 'dripsy';
+
 import DragBox from './src/DragBox';
 
 const TestScreen: React.FC = () => {
@@ -10,7 +12,8 @@ const TestScreen: React.FC = () => {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-      }}>
+      }}
+    >
       <DragBox />
     </SafeAreaView>
   );
