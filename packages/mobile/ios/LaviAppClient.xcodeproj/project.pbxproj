@@ -11,12 +11,12 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		42A4C0CE0AB64B77B9B59E8B /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CBF72ADBDF4A480E907A97F8 /* Pretendard-Bold.otf */; };
+		5B075A8CF9B945CE804E57F8 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = E0F7D8E28E054C07B1EF2188 /* Pretendard-Light.otf */; };
 		6172F2D35A4C3AA820D92908 /* libPods-LaviAppClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6423831EA8574132BED9D8CC /* libPods-LaviAppClient.a */; };
 		7EF68E3733C33B6898317E18 /* libPods-LaviAppClient-LaviAppClientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFE59519B596E51CEFDCCC0 /* libPods-LaviAppClient-LaviAppClientTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		D3F6B3EF803D439C9A76D4BC /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18E58861F7D54129AA7638AF /* Pretendard-Black.otf */; };
-		42A4C0CE0AB64B77B9B59E8B /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CBF72ADBDF4A480E907A97F8 /* Pretendard-Bold.otf */; };
-		5B075A8CF9B945CE804E57F8 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = E0F7D8E28E054C07B1EF2188 /* Pretendard-Light.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,17 +39,17 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LaviAppClient/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LaviAppClient/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LaviAppClient/main.m; sourceTree = "<group>"; };
+		18E58861F7D54129AA7638AF /* Pretendard-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pretendard-Black.otf"; path = "../assets/fonts/Pretendard-Black.otf"; sourceTree = "<group>"; };
 		1D0AE47A65C8663E3B452821 /* Pods-LaviAppClient-LaviAppClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaviAppClient-LaviAppClientTests.release.xcconfig"; path = "Target Support Files/Pods-LaviAppClient-LaviAppClientTests/Pods-LaviAppClient-LaviAppClientTests.release.xcconfig"; sourceTree = "<group>"; };
 		6423831EA8574132BED9D8CC /* libPods-LaviAppClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LaviAppClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C97AB639B58BBB4B15BBE30 /* Pods-LaviAppClient-LaviAppClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaviAppClient-LaviAppClientTests.debug.xcconfig"; path = "Target Support Files/Pods-LaviAppClient-LaviAppClientTests/Pods-LaviAppClient-LaviAppClientTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = LaviAppClient/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABFE59519B596E51CEFDCCC0 /* libPods-LaviAppClient-LaviAppClientTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LaviAppClient-LaviAppClientTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A881CF5CF3F2B244570E2A /* Pods-LaviAppClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaviAppClient.debug.xcconfig"; path = "Target Support Files/Pods-LaviAppClient/Pods-LaviAppClient.debug.xcconfig"; sourceTree = "<group>"; };
+		CBF72ADBDF4A480E907A97F8 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pretendard-Bold.otf"; path = "../assets/fonts/Pretendard-Bold.otf"; sourceTree = "<group>"; };
 		D00AAFFCFCFDA5787532823F /* Pods-LaviAppClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaviAppClient.release.xcconfig"; path = "Target Support Files/Pods-LaviAppClient/Pods-LaviAppClient.release.xcconfig"; sourceTree = "<group>"; };
+		E0F7D8E28E054C07B1EF2188 /* Pretendard-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pretendard-Light.otf"; path = "../assets/fonts/Pretendard-Light.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		18E58861F7D54129AA7638AF /* Pretendard-Black.otf */ = {isa = PBXFileReference; name = "Pretendard-Black.otf"; path = "../assets/fonts/Pretendard-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CBF72ADBDF4A480E907A97F8 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; name = "Pretendard-Bold.otf"; path = "../assets/fonts/Pretendard-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E0F7D8E28E054C07B1EF2188 /* Pretendard-Light.otf */ = {isa = PBXFileReference; name = "Pretendard-Light.otf"; path = "../assets/fonts/Pretendard-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +87,17 @@
 				00E356F11AD99517003FC87E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EAE4188A1984F92BBE11753 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18E58861F7D54129AA7638AF /* Pretendard-Black.otf */,
+				CBF72ADBDF4A480E907A97F8 /* Pretendard-Bold.otf */,
+				E0F7D8E28E054C07B1EF2188 /* Pretendard-Light.otf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		13B07FAE1A68108700A75B9A /* LaviAppClient */ = {
@@ -154,17 +165,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		0EAE4188A1984F92BBE11753 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				18E58861F7D54129AA7638AF /* Pretendard-Black.otf */,
-				CBF72ADBDF4A480E907A97F8 /* Pretendard-Bold.otf */,
-				E0F7D8E28E054C07B1EF2188 /* Pretendard-Light.otf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 

@@ -2,10 +2,7 @@ import React from 'react';
 
 import { View } from 'react-native';
 
-import {
-  PanGestureHandler,
-  PanGestureHandlerGestureEvent,
-} from 'react-native-gesture-handler';
+import { PanGestureHandlerGestureEvent, PanGestureHandler } from 'react-native-gesture-handler';
 import Animated, {
   Extrapolate,
   interpolate,
@@ -43,12 +40,8 @@ const DragBox: React.FC = () => {
   });
 
   const stylez = useAnimatedStyle(() => {
-    const H = Math.round(
-      interpolate(translation.x.value, [0, 300], [0, 360], Extrapolate.CLAMP),
-    );
-    const S = Math.round(
-      interpolate(translation.y.value, [0, 500], [100, 50], Extrapolate.CLAMP),
-    );
+    const H = Math.round(interpolate(translation.x.value, [0, 300], [0, 360], Extrapolate.CLAMP));
+    const S = Math.round(interpolate(translation.y.value, [0, 500], [100, 50], Extrapolate.CLAMP));
     const backgroundColor = `hsl(${H},${S}%,50%)`;
     return {
       transform: [
