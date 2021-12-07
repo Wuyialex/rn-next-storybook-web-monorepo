@@ -14,3 +14,18 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+	font-family: 'Pretendard-Light';
+	src: url('../public/fonts/Pretendard/Pretendard-Light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard-Bold';
+	src: url('../public/fonts/Pretendard/Pretendard-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard-Black';
+	src: url('../public/fonts/Pretendard/Pretendard-Black.woff') format('woff');
+}
