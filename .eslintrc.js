@@ -52,6 +52,7 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 0,
     '@typescript-eslint/ban-ts-comment': 0,
     '@typescript-eslint/no-empty-interface': 0,
+    '@typescript-eslint/no-unused-vars': 0,
     'react/react-in-jsx-scope': 0,
     'react/no-unescaped-entities': 0,
     'react-hooks/rules-of-hooks': 'error',
