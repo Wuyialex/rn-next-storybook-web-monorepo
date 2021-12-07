@@ -3,8 +3,9 @@ import React from 'react';
 import DragBox from 'app/src/components/DragBox';
 import Image from 'app/src/components/Image';
 import { SafeAreaView, Text } from 'dripsy';
+import { observer } from 'mobx-react-lite';
 
-const TestScreen: React.FC = () => {
+const TestScreen: React.FC = observer(() => {
   return (
     <SafeAreaView
       sx={{
@@ -41,6 +42,6 @@ const TestScreen: React.FC = () => {
       <DragBox />
     </SafeAreaView>
   );
-};
+});
 
 export default TestScreen;
