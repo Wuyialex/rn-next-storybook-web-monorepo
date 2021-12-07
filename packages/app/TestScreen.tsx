@@ -1,8 +1,7 @@
 import React from 'react';
 
-import { SafeAreaView, Text } from 'dripsy';
-
-import DragBox from './src/components/DragBox';
+import DragBox from 'app/src/components/DragBox';
+import { SafeAreaView, Text, Image } from 'dripsy';
 
 const TestScreen: React.FC = () => {
   return (
@@ -22,6 +21,13 @@ const TestScreen: React.FC = () => {
       >
         1234567890 차카타파하 Aa Bb Gg
       </Text>
+      <Image
+        sx={{
+          width: 100,
+          height: 100,
+        }}
+        source={require('app/assets/icons/Icon=AddOutlineWhite.png')}
+      />
       <DragBox />
     </SafeAreaView>
   );

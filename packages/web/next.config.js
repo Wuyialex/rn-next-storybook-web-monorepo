@@ -2,13 +2,14 @@ const path = require('path');
 
 const { withExpo } = require('@expo/next-adapter');
 const withPlugins = require('next-compose-plugins');
+const withImages = require('next-images');
 const withTM = require('next-transpile-modules')([
   'app',
   'dripsy',
   '@dripsy/core',
 ]);
 
-module.exports = withPlugins([
+module.exports = withPlugins(
   [
     withTM({
       webpack(config) {
@@ -25,6 +26,12 @@ module.exports = withPlugins([
         return config;
       },
     }),
+    withImages,
+    [withExpo, { projectRoot: path.join(__dirname, '../..') }],
   ],
-  [withExpo, { projectRoot: path.join(__dirname, '../..') }],
-]);
+  {
+    images: {
+      disableStaticImages: true,
+    },
+  },
+);
