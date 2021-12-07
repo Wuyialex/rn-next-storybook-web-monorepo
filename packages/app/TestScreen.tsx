@@ -2,7 +2,7 @@ import React from 'react';
 
 import { SafeAreaView, Text } from 'dripsy';
 
-import DragBox from './src/DragBox';
+import DragBox from './src/components/DragBox';
 
 const TestScreen: React.FC = () => {
   return (
