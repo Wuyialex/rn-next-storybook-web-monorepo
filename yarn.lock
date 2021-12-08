@@ -2373,10 +2373,10 @@
   resolved "https://registry.npmjs.org/@storybook/addon-measure/-/addon-measure-2.0.0.tgz#c40bbe91bacd3f795963dc1ee6ff86be87deeda9"
   integrity sha512-ZhdT++cX+L9LwjhGYggvYUUVQH/MGn2rwbrAwCMzA/f2QTFvkjxzX8nDgMxIhaLCDC+gHIxfJG2wrWN0jkBr3g==
 
-"@storybook/addon-react-native-web@0.0.14":
-  version "0.0.14"
-  resolved "https://registry.npmjs.org/@storybook/addon-react-native-web/-/addon-react-native-web-0.0.14.tgz#2abd8ac45c06338cc87e9c04ca8a7850b4736576"
-  integrity sha512-7kUI4uquIRQW4DRlrhB5QXPnJxzhTSqm38j4Q525gu1UfpxmBVpC+fQ8UjzxiRF6lcoMgaxjZFZzAO4N0dKjGw==
+"@storybook/addon-react-native-web@0.0.12":
+  version "0.0.12"
+  resolved "https://registry.npmjs.org/@storybook/addon-react-native-web/-/addon-react-native-web-0.0.12.tgz#22558059198006c1816a04cf73ab045ba8be9b7d"
+  integrity sha512-/vxPDqBZNQtv7F6TRTC2DSQs8Dx9BNcdilKd3ldUqywjZl4Ec/hhWkJUiM0NkNlP4HQX3/WtxjFrSFB5k5O4IQ==
 
 "@storybook/addon-toolbars@6.3.12":
   version "6.3.12"
