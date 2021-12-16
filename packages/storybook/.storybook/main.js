@@ -12,6 +12,7 @@ module.exports = {
     {
       name: '@storybook/addon-react-native-web',
       options: {
+        projectRoot: path.resolve(__dirname, '../../'),
         modulesToTranspile: [
           'dripsy',
           '@dripsy/core',
